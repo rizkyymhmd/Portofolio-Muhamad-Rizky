@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio | Muhamad Rizky Ferdiansyah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="Image/glow.gif" alt="Foto Header" class="logo-img">
+        <span class="profile-name">Muhamad Rizky</span>
+      </div>
+      <div class="nav-container">
+        <nav class="nav">
+          <a href="#portofolio">Portofolio</a>
+          <a href="#about">Tentang Saya</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+        <div class="page-title">
+          <h1>Portofolio | Muhamad Rizky</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h2 class="animate-fade-in">Halo, Teman Teman</h2>
+        <h1 class="animate-fade-in">Saya Muhamad Rizky Ferdiansyah</h1>
+        <h3 class="animate-fade-in">Saya <span>Developer Pemula</span></h3>
+        <p class="animate-slide-up">Selamat datang di portofolio saya! Nama saya Muhamad Rizky,
+          mahasiswa Teknik Informatika semester 5 di Universitas Perjuangan Tasikmalaya.
+          Portofolio ini adalah tempat saya berbagi karya-karya terbaik saya di bidang pemrograman dan di bidang desainer.</p>
+        <p class="animate-slide-up">Anda dapat menemukan proyek-proyek yang telah saya buat,
+          mulai dari website clone unper, text editor sederhana, beranda youtube, dan tampilan halaman google.</p>
+        <p class="animate-slide-up">
+          Silakan jelajahi halaman ini, dan jika ada pertanyaan atau ide yang ingin Anda diskusikan,
+          jangan ragu untuk menghubungi saya. Terima kasih telah berkunjung!</p>
+          <br>
+        <button class="hero-button animate-pulse" onclick="scrollToContact()">Contact Me</button>
+      </div>
+      <div class="hero-image">
+        <img src="Image/profile.jpg" alt="Foto Saya">
+      </div>
+    </div>
+  </section>
+
+  <section id="portofolio" class="portofolio">
+    <h2>Portofolio</h2>
+    <div class="portofolio-grid">
+      <div class="portofolio-item">
+        <img src="Image/project-1.png" alt="Project 1">
+        <p>Clone Aplikasi Website Unper</p>
+      </div>
+      <div class="portofolio-item">
+        <img src="Image/project-2.png" alt="Project 2">
+        <p>Text Editor Sederhana Berbasis Web</p>
+      </div>
+      <div class="portofolio-item">
+        <img src="Image/project-3.png" alt="Project 3">
+        <p>Tampilan Frontend Halaman Youtube</p>
+      </div>
+      <div class="portofolio-item">
+        <img src="Image/project-4.png" alt="Project 4">
+        <p>Membuat Tampilan Halaman Google</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>
+      Halo! Perkenalkan, saya Muhamad Rizky Ferdiansyah,
+      saya seorang mahasiswa di Universitas Perjuangan Tasikmalaya, dan
+      saat ini sedang menempuh semester 5 di program studi Teknik Informatika.
+    </p>
+    <p>
+      Sebagai seorang mahasiswa yang aktif, saya memiliki ketertarikan di bidang pemrograman dan di bidang desainer.
+      Selama perjalanan akademik saya, saya telah banyak belajar dan mengerjakan proyek-proyek berbasis teknologi,
+      baik secara individu maupun dalam tim.
+    </p>
+    <p>Di luar kegiatan perkuliahan, saya sering mengisi waktu dengan belajar dari youtube
+      dan pelatihan di website dicoding untuk menambah dan mengasah keterampilan saya.
+      Saya juga aktif di himpunan selama satu priode di kampus dan saya menjadi salah satu anggota
+      dari departemen medkominfo untuk mendesain berbagai pamflet apresiasi, foto, dan yang lainnya,
+      di mana saya sering terlibat dalam proker tersebut.
+    </p>
+    <p>Saya percaya bahwa langkah kecil yang konsisten akan membawa perubahan besar.
+      Jika Anda tertarik untuk mengenal lebih jauh atau ingin berdiskusi tentang teknologi,
+      silakan hubungi saya melalui kontak yang telah di sediakan. Saya selalu terbuka untuk ide baru
+      dan kolaborasi yang menarik.
+    </p>
+    <p>Terima kasih telah meluangkan waktu untuk mengenal saya lebih jauh.
+      Saya berharap dapat bekerja sama dengan Anda di masa depan!
+    </p>
+    <div class="skills">
+      <h2>Skill Keterampilan</h2>
+      <div class="skill-bar">
+        <img src="Icons/html.svg" alt="HTML Icon" class="skill-icon">
+        <span>HTML</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%;"></div>
+        </div>
+        <span class="skill-percentage">80%</span>
+      </div>
+      <div class="skill-bar">
+        <img src="Icons/css.svg" alt="CSS Icon" class="skill-icon">
+        <span>CSS</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 50%;"></div>
+        </div>
+        <span class="skill-percentage">65%</span>
+      </div>
+      <div class="skill-bar">
+        <img src="Icons/js.svg" alt="JavaScript Icon" class="skill-icon">
+        <span>JavaScript</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 10%;"></div>
+        </div>
+        <span class="skill-percentage">35%</span>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="contact">
+    <h2>Kontak Saya</h2>
+    <div class="contact-container">
+        <div class="contact-item">
+            <img src="Icons/email.svg" alt="Email Icon">
+            <a href="mailto:rizkyferdiansyah059@gmail.com">rizkyferdiansyah059@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <img src="Icons/instagram.svg" alt="Instagram Icon">
+            <a href="https://www.instagram.com/riizkymhmd__" target="_blank">riizkymhmd__</a>
+        </div>
+        <div class="contact-item">
+            <img src="Icons/phone.svg" alt="Phone Icon">
+            <a href="tel:+89683908050">0896-8390-8050</a>
+        </div>
+    </div>
+    <p>© 2024 Muhamad Rizky Ferdiansyah. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
